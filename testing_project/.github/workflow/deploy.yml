@@ -39,7 +39,7 @@ jobs:
         host: ${{ secrets.VM_HOST }}
         username: ${{ secrets.VM_USER }}
         port: ${{ secrets.VM_PORT }}
-        key: ${{ secrets.VM_SSH_KEY }}
+        key: ${{ secrets.PRIVATE_KEY }}
         script: |
           cd ${{ secrets.DEPLOY_DIR }}
           npm install --omit=dev
