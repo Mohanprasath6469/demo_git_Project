@@ -1,5 +1,5 @@
 export default function first_page(){
   return(
-    <div>Venkadeswaran</div>
+    <div>Veera Sekar</div>
   )
 }
