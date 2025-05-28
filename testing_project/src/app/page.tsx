@@ -1,5 +1,5 @@
 export default function first_page(){
   return(
-    <div>Johan Rosario JR</div>
+    <div>DINESH KUMAR</div>
   )
 }
