@@ -34,7 +34,7 @@ jobs:
         username: ${{ secrets.VM_USER }}
         port: ${{ secrets.VM_PORT }}
         key: ${{ secrets.PRIVATE_KEY }}
-        source: "testing_project/.next,testing_project/public,testing_project/package.json,testing_project/ecosystem.config.js"
+        source: "testing_project/.next testing_project/public testing_project/package.json testing_project/ecosystem.config.js"
         target: ${{ secrets.DEPLOY_DIR }}
 
     - name: SSH and Restart PM2
